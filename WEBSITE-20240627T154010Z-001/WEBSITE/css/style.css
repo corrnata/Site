@@ -1,0 +1,107 @@
+		/*site banner*/
+		
+		*{
+		margin: 0;
+		padding: 0:
+		font-family:General Sans', sans-serif;
+		}
+		.banner{
+		width: 100%;
+		height: 100vh;
+		
+		}
+		.navbar{
+			width: 85%;
+			margin: auto;
+			padding: 35px 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.logo{
+			width: 120px;
+			cursor: pointer;
+		}
+		.navbar ul li{
+			list-style: none;
+			display: inline-block;
+			margin: 0 20px;
+			position: relative;
+		}
+			.navbar ul li a{
+				text-decoration: none;
+				color: #fff;
+				text-transform: uppercase:
+			}
+				.navbar ul li::after{
+				content: '';
+				height: 3px;
+				width: 0px;
+				background: #009688;
+				postion: absolute;
+				left: 0;
+				bottom: -10px;
+				transition: 0.5s;
+				}
+		
+		.navbar ul li:hover::after{
+		width:100%;
+		}
+		
+		
+		
+		
+		
+		
+		/*content CSS*/
+		body{
+		/*changes site background colour*/
+		background-color: #303030;}
+		
+		h1 { /*changes colour for H1*/
+			font-family: 'Quicksand', sans-serif;
+			/*background-color: rgb(200,200,200);*/
+			color: #ffffff;
+			text-align: center;}
+		
+		p { /*changes colour for paragraths*/
+				font-family: 'General Sans', sans-serif;
+				/*background-color: #ffffff;*/
+				color: #ffffff;
+					text-align: center;
+				
+				/*width:300px; SOMETHING PUSHING THE TEXT TO THE LEFT 
+				padding:50px
+				border:20px soild #ffffff;}*/
+				p.centercon {
+				margin: 10px auto 10px auto;
+				text-align: center;} 
+			
+				
+		li {
+				/font-family: 'General Sans', sans-serif;
+				background-color: #ffffff;
+				color: #ffffff;
+				text-align: center;}
+				
+				body{/*box info*/
+				text-align: center;}
+				
+				
+				
+				
+				
+			/*styled links*/
+			a:link {
+				color: deeppink;
+				text-decoration: none;}
+			a:visted {
+				color: black;}
+			a:hover {
+				color: deeppink;
+				text-decoration: underline;}
+			a:active {
+				color: #ffffff;}
+				
+				
+			
