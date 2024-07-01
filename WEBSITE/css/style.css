@@ -1,0 +1,201 @@
+
+		/*site banner*/
+		
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: General Sans', sans-serif;
+			}
+		.banner{
+		width: 100%;
+		height: 100vh;
+		
+		}
+
+		 /*banner postion */
+		.navbar{
+			width: 85%;
+			margin: auto;
+			padding: 35px 0;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.logo{
+			width: 120px;
+			cursor: pointer;
+		}
+
+				/*banner link list postion */
+		.navbar ul li{
+			list-style: none;
+			display: inline-block;
+			margin: 0 20px;
+			position: relative;
+		}
+			.navbar ul li a{ /*banner link list text colour*/
+				text-decoration: none;
+				color: #ffffff;
+				text-transform: uppercase: /*banner link list text makes uppercase intionsaly broken*/
+			}
+				.navbar ul li::after{
+				content: '';
+				height: 3px;
+				width: 0px;
+				background: #910000;
+				postion: absolute;
+				left: 0;
+				bottom: -10px;
+				transition: 0.10s;
+				}
+		
+		.navbar ul li:hover::after{
+		width:100%;
+		}
+		
+		
+		
+		
+		
+		
+		/*content CSS*/
+		body{
+		/*changes site background colour*/
+		background-color: #303030;}
+		
+		h1 { /*changes colour for H1*/
+			font-family: 'Quicksand', sans-serif;
+			/*background-color: rgb(200,200,200);*/
+			color: #ffffff;
+			text-align: center;}
+		
+		p { /*changes colour for paragraths*/
+				font-family: 'General Sans', sans-serif;
+				/*background-color: #ffffff;*/
+				color: #ffffff;
+					text-align: center;
+				
+				/*width:300px; SOMETHING PUSHING THE TEXT TO THE LEFT 
+				padding:50px
+				border:20px soild #ffffff;}*/
+				p.centercon {
+				margin: 10px auto 10px auto;
+				text-align: center;} 
+			
+				
+		li {
+				/font-family: 'General Sans', sans-serif;
+				background-color:+;
+				color: #ffffff;
+				text-align: center;}
+				
+				body{/*box info*/
+				text-align: center;}
+				
+				
+				
+				
+				
+			/*styled links*/
+			a:link {
+				color: deeppink;
+				text-decoration: none;}
+			a:visted {
+				color: black;}
+			a:hover {
+				color: deeppink;
+				text-decoration: underline;}
+			a:active {
+				color: #ffffff;}
+				
+				
+			/*footer*/
+			padding:50px 0;
+			  background-color:#910000;
+ 			 color: #fff;
+			}
+
+				.footer-clean h3 {  /*size of the footer titles*/
+				margin-top:0;
+				margin-bottom:12px;
+				font-weight:bold;
+				font-size:16px;
+				}
+
+				.footer-clean ul {   /*size of the footer link list text*/
+					padding:0;
+					list-style:none;
+					line-height:1.6;
+					font-size:14px;
+					margin-bottom:0;
+					}
+
+					.footer-clean ul a { /*colour of the links in the footer*/
+						color:inherit;
+						text-decoration:none;
+						opacity:0.8;
+						}
+
+				.footer-clean ul a:hover {  /*opacity of the links in the footer when hovered over with the mouse*/
+				opacity:1;
+				}
+
+
+					/*postion of social media icon links*/
+				.footer-clean .item.social {  
+				text-align:center;
+				}
+
+				@media (max-width:767px) { 
+				.footer-clean .item {
+					text-align:center;
+					padding-bottom:20px;
+				}
+				}
+
+				@media (max-width: 768px) {
+					.footer-clean .item.social {
+						text-align:center;
+					}
+					}
+
+					/*Size and colour of social media icon links*/
+				.footer-clean .item.social > a { 
+				font-size:25px;
+				width:35px;
+				height:30px;
+				line-height:50px;
+				display:inline-block;
+				text-align:center;
+				border-radius:50%;
+				border:1px solid #ccc;
+				margin-left:10px;
+				margin-top:22px;
+				color:inherit;
+				opacity:0.75;
+				}
+
+					/*opacity of the social media links in the footer when hovered over with the mouse*/				
+				.footer-clean .item.social > a:hover { 
+					opacity:0.9;
+					}
+	
+					@media (max-width:991px) {
+						.footer-clean .item.social > a {
+							margin-top:40px;
+						}
+						}
+
+						@media (max-width:767px) {
+							.footer-clean .item.social > a {
+								margin-top:10px;
+							}
+							}
+							
+				/*Size aof the copy right info*/
+				.footer-clean .copyright { 
+				margin-top:14px;
+				margin-bottom:0;
+				font-size:13px;
+				opacity:0.6;
+				}
